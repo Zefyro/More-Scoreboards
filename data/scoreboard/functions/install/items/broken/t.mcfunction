@@ -1,0 +1,26 @@
+# Broken (T)
+scoreboard objectives add broken_T_1 minecraft.broken:minecraft.tall_grass "broken - tall_grass"
+scoreboard objectives add broken_T_2 minecraft.broken:minecraft.target "broken - target"
+scoreboard objectives add broken_T_3 minecraft.broken:minecraft.terracotta "broken - terracotta"
+scoreboard objectives add broken_T_4 minecraft.broken:minecraft.tipped_arrow "broken - tipped_arrow"
+scoreboard objectives add broken_T_5 minecraft.broken:minecraft.tnt "broken - tnt"
+scoreboard objectives add broken_T_6 minecraft.broken:minecraft.tnt_minecart "broken - tnt_minecart"
+scoreboard objectives add broken_T_7 minecraft.broken:minecraft.torch "broken - torch"
+scoreboard objectives add broken_T_8 minecraft.broken:minecraft.totem_of_undying "broken - totem_of_undying"
+scoreboard objectives add broken_T_9 minecraft.broken:minecraft.trader_llama_spawn_egg "broken - trader_llama_spawn_egg"
+scoreboard objectives add broken_T_10 minecraft.broken:minecraft.trapped_chest "broken - trapped_chest"
+scoreboard objectives add broken_T_11 minecraft.broken:minecraft.trident "broken - trident"
+scoreboard objectives add broken_T_12 minecraft.broken:minecraft.tripwire_hook "broken - tripwire_hook"
+scoreboard objectives add broken_T_13 minecraft.broken:minecraft.tropical_fish "broken - tropical_fish"
+scoreboard objectives add broken_T_14 minecraft.broken:minecraft.tropical_fish_bucket "broken - tropical_fish_bucket"
+scoreboard objectives add broken_T_15 minecraft.broken:minecraft.tropical_fish_spawn_egg "broken - tropical_fish_spawn_egg"
+scoreboard objectives add broken_T_16 minecraft.broken:minecraft.tube_coral "broken - tube_coral"
+scoreboard objectives add broken_T_17 minecraft.broken:minecraft.tube_coral_block "broken - tube_coral_block"
+scoreboard objectives add broken_T_18 minecraft.broken:minecraft.tube_coral_fan "broken - tube_coral_fan"
+scoreboard objectives add broken_T_19 minecraft.broken:minecraft.turtle_egg "broken - turtle_egg"
+scoreboard objectives add broken_T_20 minecraft.broken:minecraft.turtle_helmet "broken - turtle_helmet"
+scoreboard objectives add broken_T_21 minecraft.broken:minecraft.turtle_spawn_egg "broken - turtle_spawn_egg"
+scoreboard objectives add broken_T_22 minecraft.broken:minecraft.twisting_vines "broken - twisting_vines"
+
+tellraw @a {"text":"Installed 19,82 %","color":"gray"}
+schedule function scoreboard:install/items/broken/v 2t
