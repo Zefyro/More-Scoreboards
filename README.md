@@ -1,2 +1,6 @@
 # More-Scoreboards
-More Scoreboards datapack for minecraft 1.16.2+
+This datapack adds every single scoreboard to minecraft, you can cycle through them using `/trigger Scoreboard` (`add ±<number>` & `set <number>`)
+
+# To do list
+1. Finish the `/trigger` part of this datapack.
+
