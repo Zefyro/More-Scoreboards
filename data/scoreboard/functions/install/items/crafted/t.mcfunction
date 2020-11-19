@@ -1,0 +1,26 @@
+# Crafted (T)
+scoreboard objectives add crafted_T_1 minecraft.crafted:minecraft.tall_grass "crafted - tall_grass"
+scoreboard objectives add crafted_T_2 minecraft.crafted:minecraft.target "crafted - target"
+scoreboard objectives add crafted_T_3 minecraft.crafted:minecraft.terracotta "crafted - terracotta"
+scoreboard objectives add crafted_T_4 minecraft.crafted:minecraft.tipped_arrow "crafted - tipped_arrow"
+scoreboard objectives add crafted_T_5 minecraft.crafted:minecraft.tnt "crafted - tnt"
+scoreboard objectives add crafted_T_6 minecraft.crafted:minecraft.tnt_minecart "crafted - tnt_minecart"
+scoreboard objectives add crafted_T_7 minecraft.crafted:minecraft.torch "crafted - torch"
+scoreboard objectives add crafted_T_8 minecraft.crafted:minecraft.totem_of_undying "crafted - totem_of_undying"
+scoreboard objectives add crafted_T_9 minecraft.crafted:minecraft.trader_llama_spawn_egg "crafted - trader_llama_spawn_egg"
+scoreboard objectives add crafted_T_10 minecraft.crafted:minecraft.trapped_chest "crafted - trapped_chest"
+scoreboard objectives add crafted_T_11 minecraft.crafted:minecraft.trident "crafted - trident"
+scoreboard objectives add crafted_T_12 minecraft.crafted:minecraft.tripwire_hook "crafted - tripwire_hook"
+scoreboard objectives add crafted_T_13 minecraft.crafted:minecraft.tropical_fish "crafted - tropical_fish"
+scoreboard objectives add crafted_T_14 minecraft.crafted:minecraft.tropical_fish_bucket "crafted - tropical_fish_bucket"
+scoreboard objectives add crafted_T_15 minecraft.crafted:minecraft.tropical_fish_spawn_egg "crafted - tropical_fish_spawn_egg"
+scoreboard objectives add crafted_T_16 minecraft.crafted:minecraft.tube_coral "crafted - tube_coral"
+scoreboard objectives add crafted_T_17 minecraft.crafted:minecraft.tube_coral_block "crafted - tube_coral_block"
+scoreboard objectives add crafted_T_18 minecraft.crafted:minecraft.tube_coral_fan "crafted - tube_coral_fan"
+scoreboard objectives add crafted_T_19 minecraft.crafted:minecraft.turtle_egg "crafted - turtle_egg"
+scoreboard objectives add crafted_T_20 minecraft.crafted:minecraft.turtle_helmet "crafted - turtle_helmet"
+scoreboard objectives add crafted_T_21 minecraft.crafted:minecraft.turtle_spawn_egg "crafted - turtle_spawn_egg"
+scoreboard objectives add crafted_T_22 minecraft.crafted:minecraft.twisting_vines "crafted - twisting_vines"
+
+tellraw @a {"text":"Installed 34,85 %","color":"gray"}
+schedule function scoreboard:install/items/crafted/v 2t
