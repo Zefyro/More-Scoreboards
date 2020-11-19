@@ -1,6 +1,6 @@
 
 
-
+execute as @a unless score @s VT.Scoreboards matches 1 run function scoreboard:vanillaplus
 
 # seconds
 scoreboard players add @a[scores={x_ticks_second=20..}] seconds_played 1
