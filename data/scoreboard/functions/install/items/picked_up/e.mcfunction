@@ -1,0 +1,28 @@
+# picked_up (E)
+scoreboard objectives add picked_up_E_1 minecraft.picked_up:minecraft.egg "picked_up - egg"
+scoreboard objectives add picked_up_E_2 minecraft.picked_up:minecraft.elder_guardian_spawn_egg "picked_up - elder_guardian_spawn_egg"
+scoreboard objectives add picked_up_E_3 minecraft.picked_up:minecraft.elytra "picked_up - elytra"
+scoreboard objectives add picked_up_E_4 minecraft.picked_up:minecraft.emerald "picked_up - emerald"
+scoreboard objectives add picked_up_E_5 minecraft.picked_up:minecraft.emerald_block "picked_up - emerald_block"
+scoreboard objectives add picked_up_E_6 minecraft.picked_up:minecraft.emerald_ore "picked_up - emerald_ore"
+scoreboard objectives add picked_up_E_7 minecraft.picked_up:minecraft.enchanted_book "picked_up - enchanted_book"
+scoreboard objectives add picked_up_E_8 minecraft.picked_up:minecraft.enchanted_golden_apple "picked_up - enchanted_golden_apple"
+scoreboard objectives add picked_up_E_9 minecraft.picked_up:minecraft.enchanting_table "picked_up - enchanting_table"
+scoreboard objectives add picked_up_E_10 minecraft.picked_up:minecraft.end_crystal "picked_up - end_crystal"
+scoreboard objectives add picked_up_E_11 minecraft.picked_up:minecraft.end_portal_frame "picked_up - end_portal_frame"
+scoreboard objectives add picked_up_E_12 minecraft.picked_up:minecraft.end_rod "picked_up - end_rod"
+scoreboard objectives add picked_up_E_13 minecraft.picked_up:minecraft.end_stone "picked_up - end_stone"
+scoreboard objectives add picked_up_E_14 minecraft.picked_up:minecraft.end_stone_brick_slab "picked_up - end_stone_brick_slab"
+scoreboard objectives add picked_up_E_15 minecraft.picked_up:minecraft.end_stone_brick_stairs "picked_up - end_stone_brick_stairs"
+scoreboard objectives add picked_up_E_16 minecraft.picked_up:minecraft.end_stone_brick_wall "picked_up - end_stone_brick_wall"
+scoreboard objectives add picked_up_E_17 minecraft.picked_up:minecraft.end_stone_bricks "picked_up - end_stone_bricks"
+scoreboard objectives add picked_up_E_18 minecraft.picked_up:minecraft.ender_chest "picked_up - ender_chest"
+scoreboard objectives add picked_up_E_19 minecraft.picked_up:minecraft.ender_eye "picked_up - ender_eye"
+scoreboard objectives add picked_up_E_20 minecraft.picked_up:minecraft.ender_pearl "picked_up - ender_pearl"
+scoreboard objectives add picked_up_E_21 minecraft.picked_up:minecraft.enderman_spawn_egg "picked_up - enderman_spawn_egg"
+scoreboard objectives add picked_up_E_22 minecraft.picked_up:minecraft.endermite_spawn_egg "picked_up - endermite_spawn_egg"
+scoreboard objectives add picked_up_E_23 minecraft.picked_up:minecraft.evoker_spawn_egg "picked_up - evoker_spawn_egg"
+scoreboard objectives add picked_up_E_24 minecraft.picked_up:minecraft.experience_bottle "picked_up - experience_bottle"
+
+tellraw @a {"text":"Installed 72,27 %","color":"gray"}
+schedule function scoreboard:install/items/picked_up/f 3t

@@ -1,0 +1,33 @@
+# picked_up (A)
+scoreboard objectives add picked_up_A_1 minecraft.picked_up:minecraft.acacia_boat "picked_up - acacia_boat"
+scoreboard objectives add picked_up_A_2 minecraft.picked_up:minecraft.acacia_button "picked_up - acacia-button"
+scoreboard objectives add picked_up_A_3 minecraft.picked_up:minecraft.acacia_door "picked_up - acacia_door"
+scoreboard objectives add picked_up_A_4 minecraft.picked_up:minecraft.acacia_fence "picked_up - acacia_fence"
+scoreboard objectives add picked_up_A_5 minecraft.picked_up:minecraft.acacia_fence_gate "picked_up - acacia_fence_gate"
+scoreboard objectives add picked_up_A_6 minecraft.picked_up:minecraft.acacia_leaves "picked_up - acacia_leaves"
+scoreboard objectives add picked_up_A_7 minecraft.picked_up:minecraft.acacia_log "picked_up - acacia_log" 
+scoreboard objectives add picked_up_A_8 minecraft.picked_up:minecraft.acacia_planks "picked_up - acacia_planks"
+scoreboard objectives add picked_up_A_9 minecraft.picked_up:minecraft.acacia_pressure_plate "picked_up - acacia_pressure_plate"
+scoreboard objectives add picked_up_A_10 minecraft.picked_up:minecraft.acacia_sapling "picked_up - acacia_sapling"
+scoreboard objectives add picked_up_A_11 minecraft.picked_up:minecraft.acacia_sign "picked_up - acacia_sign"
+scoreboard objectives add picked_up_A_12 minecraft.picked_up:minecraft.acacia_slab "picked_up - acacia_slab"
+scoreboard objectives add picked_up_A_13 minecraft.picked_up:minecraft.acacia_stairs "picked_up - acacia_stairs"
+scoreboard objectives add picked_up_A_14 minecraft.picked_up:minecraft.acacia_trapdoor "picked_up - acacia_trapdoor"
+scoreboard objectives add picked_up_A_15 minecraft.picked_up:minecraft.acacia_wood "picked_up - acacia_wood"
+scoreboard objectives add picked_up_A_16 minecraft.picked_up:minecraft.activator_rail "picked_up - activator_rail"
+scoreboard objectives add picked_up_A_17 minecraft.picked_up:minecraft.air "picked_up - air"
+scoreboard objectives add picked_up_A_18 minecraft.picked_up:minecraft.allium "picked_up - allium"
+scoreboard objectives add picked_up_A_19 minecraft.picked_up:minecraft.ancient_debris "picked_up - ancient_debris"
+scoreboard objectives add picked_up_A_20 minecraft.picked_up:minecraft.andesite "picked_up - andesite"
+scoreboard objectives add picked_up_A_21 minecraft.picked_up:minecraft.andesite_slab "picked_up - andesite_slab"
+scoreboard objectives add picked_up_A_22 minecraft.picked_up:minecraft.andesite_stairs "picked_up - andesite_stairs"
+scoreboard objectives add picked_up_A_23 minecraft.picked_up:minecraft.andesite_wall "picked_up - andesite_wall"
+scoreboard objectives add picked_up_A_24 minecraft.picked_up:minecraft.anvil "picked_up - anvil"
+scoreboard objectives add picked_up_A_25 minecraft.picked_up:minecraft.apple "picked_up - apple"
+scoreboard objectives add picked_up_A_26 minecraft.picked_up:minecraft.armor_stand "picked_up - armor_stand"
+scoreboard objectives add picked_up_A_27 minecraft.picked_up:minecraft.arrow "picked_up - arrow"
+scoreboard objectives add picked_up_A_28 minecraft.picked_up:minecraft.azure_bluet "picked_up - azure_bluet"
+
+tellraw @a {"text":"Installed 67,51 %","color":"gray"}
+schedule function scoreboard:install/items/picked_up/b 3t
+# 4155

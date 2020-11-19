@@ -1,0 +1,28 @@
+# Mined (A)
+scoreboard objectives add mined_A_2 minecraft.mined:minecraft.acacia_button "mined - acacia-button"
+scoreboard objectives add mined_A_3 minecraft.mined:minecraft.acacia_door "mined - acacia_door"
+scoreboard objectives add mined_A_4 minecraft.mined:minecraft.acacia_fence "mined - acacia_fence"
+scoreboard objectives add mined_A_5 minecraft.mined:minecraft.acacia_fence_gate "mined - acacia_fence_gate"
+scoreboard objectives add mined_A_6 minecraft.mined:minecraft.acacia_leaves "mined - acacia_leaves"
+scoreboard objectives add mined_A_7 minecraft.mined:minecraft.acacia_log "mined - acacia_log" 
+scoreboard objectives add mined_A_8 minecraft.mined:minecraft.acacia_planks "mined - acacia_planks"
+scoreboard objectives add mined_A_9 minecraft.mined:minecraft.acacia_pressure_plate "mined - acacia_pressure_plate"
+scoreboard objectives add mined_A_10 minecraft.mined:minecraft.acacia_sapling "mined - acacia_sapling"
+scoreboard objectives add mined_A_11 minecraft.mined:minecraft.acacia_sign "mined - acacia_sign"
+scoreboard objectives add mined_A_12 minecraft.mined:minecraft.acacia_slab "mined - acacia_slab"
+scoreboard objectives add mined_A_13 minecraft.mined:minecraft.acacia_stairs "mined - acacia_stairs"
+scoreboard objectives add mined_A_14 minecraft.mined:minecraft.acacia_trapdoor "mined - acacia_trapdoor"
+scoreboard objectives add mined_A_15 minecraft.mined:minecraft.acacia_wood "mined - acacia_wood"
+scoreboard objectives add mined_A_16 minecraft.mined:minecraft.activator_rail "mined - activator_rail"
+scoreboard objectives add mined_A_17 minecraft.mined:minecraft.air "mined - air"
+scoreboard objectives add mined_A_18 minecraft.mined:minecraft.allium "mined - allium"
+scoreboard objectives add mined_A_19 minecraft.mined:minecraft.ancient_debris "mined - ancient_debris"
+scoreboard objectives add mined_A_20 minecraft.mined:minecraft.andesite "mined - andesite"
+scoreboard objectives add mined_A_21 minecraft.mined:minecraft.andesite_slab "mined - andesite_slab"
+scoreboard objectives add mined_A_22 minecraft.mined:minecraft.andesite_stairs "mined - andesite_stairs"
+scoreboard objectives add mined_A_23 minecraft.mined:minecraft.andesite_wall "mined - andesite_wall"
+scoreboard objectives add mined_A_24 minecraft.mined:minecraft.anvil "mined - anvil"
+scoreboard objectives add mined_A_28 minecraft.mined:minecraft.azure_bluet "mined - azure_bluet"
+
+tellraw @a {"text":"Installed 52,27 %","color":"gray"}
+schedule function scoreboard:install/items/mined/b 3t

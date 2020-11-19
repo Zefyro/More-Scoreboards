@@ -1,0 +1,26 @@
+# picked_up (T)
+scoreboard objectives add picked_up_T_1 minecraft.picked_up:minecraft.tall_grass "picked_up - tall_grass"
+scoreboard objectives add picked_up_T_2 minecraft.picked_up:minecraft.target "picked_up - target"
+scoreboard objectives add picked_up_T_3 minecraft.picked_up:minecraft.terracotta "picked_up - terracotta"
+scoreboard objectives add picked_up_T_4 minecraft.picked_up:minecraft.tipped_arrow "picked_up - tipped_arrow"
+scoreboard objectives add picked_up_T_5 minecraft.picked_up:minecraft.tnt "picked_up - tnt"
+scoreboard objectives add picked_up_T_6 minecraft.picked_up:minecraft.tnt_minecart "picked_up - tnt_minecart"
+scoreboard objectives add picked_up_T_7 minecraft.picked_up:minecraft.torch "picked_up - torch"
+scoreboard objectives add picked_up_T_8 minecraft.picked_up:minecraft.totem_of_undying "picked_up - totem_of_undying"
+scoreboard objectives add picked_up_T_9 minecraft.picked_up:minecraft.trader_llama_spawn_egg "picked_up - trader_llama_spawn_egg"
+scoreboard objectives add picked_up_T_10 minecraft.picked_up:minecraft.trapped_chest "picked_up - trapped_chest"
+scoreboard objectives add picked_up_T_11 minecraft.picked_up:minecraft.trident "picked_up - trident"
+scoreboard objectives add picked_up_T_12 minecraft.picked_up:minecraft.tripwire_hook "picked_up - tripwire_hook"
+scoreboard objectives add picked_up_T_13 minecraft.picked_up:minecraft.tropical_fish "picked_up - tropical_fish"
+scoreboard objectives add picked_up_T_14 minecraft.picked_up:minecraft.tropical_fish_bucket "picked_up - tropical_fish_bucket"
+scoreboard objectives add picked_up_T_15 minecraft.picked_up:minecraft.tropical_fish_spawn_egg "picked_up - tropical_fish_spawn_egg"
+scoreboard objectives add picked_up_T_16 minecraft.picked_up:minecraft.tube_coral "picked_up - tube_coral"
+scoreboard objectives add picked_up_T_17 minecraft.picked_up:minecraft.tube_coral_block "picked_up - tube_coral_block"
+scoreboard objectives add picked_up_T_18 minecraft.picked_up:minecraft.tube_coral_fan "picked_up - tube_coral_fan"
+scoreboard objectives add picked_up_T_19 minecraft.picked_up:minecraft.turtle_egg "picked_up - turtle_egg"
+scoreboard objectives add picked_up_T_20 minecraft.picked_up:minecraft.turtle_helmet "picked_up - turtle_helmet"
+scoreboard objectives add picked_up_T_21 minecraft.picked_up:minecraft.turtle_spawn_egg "picked_up - turtle_spawn_egg"
+scoreboard objectives add picked_up_T_22 minecraft.picked_up:minecraft.twisting_vines "picked_up - twisting_vines"
+
+tellraw @a {"text":"Installed 81,72 %","color":"gray"}
+schedule function scoreboard:install/items/picked_up/v 3t

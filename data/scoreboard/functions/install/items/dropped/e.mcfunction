@@ -1,0 +1,28 @@
+# Dropped (E)
+scoreboard objectives add dropped_E_1 minecraft.dropped:minecraft.egg "dropped - egg"
+scoreboard objectives add dropped_E_2 minecraft.dropped:minecraft.elder_guardian_spawn_egg "dropped - elder_guardian_spawn_egg"
+scoreboard objectives add dropped_E_3 minecraft.dropped:minecraft.elytra "dropped - elytra"
+scoreboard objectives add dropped_E_4 minecraft.dropped:minecraft.emerald "dropped - emerald"
+scoreboard objectives add dropped_E_5 minecraft.dropped:minecraft.emerald_block "dropped - emerald_block"
+scoreboard objectives add dropped_E_6 minecraft.dropped:minecraft.emerald_ore "dropped - emerald_ore"
+scoreboard objectives add dropped_E_7 minecraft.dropped:minecraft.enchanted_book "dropped - enchanted_book"
+scoreboard objectives add dropped_E_8 minecraft.dropped:minecraft.enchanted_golden_apple "dropped - enchanted_golden_apple"
+scoreboard objectives add dropped_E_9 minecraft.dropped:minecraft.enchanting_table "dropped - enchanting_table"
+scoreboard objectives add dropped_E_10 minecraft.dropped:minecraft.end_crystal "dropped - end_crystal"
+scoreboard objectives add dropped_E_11 minecraft.dropped:minecraft.end_portal_frame "dropped - end_portal_frame"
+scoreboard objectives add dropped_E_12 minecraft.dropped:minecraft.end_rod "dropped - end_rod"
+scoreboard objectives add dropped_E_13 minecraft.dropped:minecraft.end_stone "dropped - end_stone"
+scoreboard objectives add dropped_E_14 minecraft.dropped:minecraft.end_stone_brick_slab "dropped - end_stone_brick_slab"
+scoreboard objectives add dropped_E_15 minecraft.dropped:minecraft.end_stone_brick_stairs "dropped - end_stone_brick_stairs"
+scoreboard objectives add dropped_E_16 minecraft.dropped:minecraft.end_stone_brick_wall "dropped - end_stone_brick_wall"
+scoreboard objectives add dropped_E_17 minecraft.dropped:minecraft.end_stone_bricks "dropped - end_stone_bricks"
+scoreboard objectives add dropped_E_18 minecraft.dropped:minecraft.ender_chest "dropped - ender_chest"
+scoreboard objectives add dropped_E_19 minecraft.dropped:minecraft.ender_eye "dropped - ender_eye"
+scoreboard objectives add dropped_E_20 minecraft.dropped:minecraft.ender_pearl "dropped - ender_pearl"
+scoreboard objectives add dropped_E_21 minecraft.dropped:minecraft.enderman_spawn_egg "dropped - enderman_spawn_egg"
+scoreboard objectives add dropped_E_22 minecraft.dropped:minecraft.endermite_spawn_egg "dropped - endermite_spawn_egg"
+scoreboard objectives add dropped_E_23 minecraft.dropped:minecraft.evoker_spawn_egg "dropped - evoker_spawn_egg"
+scoreboard objectives add dropped_E_24 minecraft.dropped:minecraft.experience_bottle "dropped - experience_bottle"
+
+tellraw @a {"text":"Installed 41,22 %","color":"gray"}
+schedule function scoreboard:install/items/dropped/f 3t

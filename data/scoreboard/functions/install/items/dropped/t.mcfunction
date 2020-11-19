@@ -1,0 +1,26 @@
+# Dropped (T)
+scoreboard objectives add dropped_T_1 minecraft.dropped:minecraft.tall_grass "dropped - tall_grass"
+scoreboard objectives add dropped_T_2 minecraft.dropped:minecraft.target "dropped - target"
+scoreboard objectives add dropped_T_3 minecraft.dropped:minecraft.terracotta "dropped - terracotta"
+scoreboard objectives add dropped_T_4 minecraft.dropped:minecraft.tipped_arrow "dropped - tipped_arrow"
+scoreboard objectives add dropped_T_5 minecraft.dropped:minecraft.tnt "dropped - tnt"
+scoreboard objectives add dropped_T_6 minecraft.dropped:minecraft.tnt_minecart "dropped - tnt_minecart"
+scoreboard objectives add dropped_T_7 minecraft.dropped:minecraft.torch "dropped - torch"
+scoreboard objectives add dropped_T_8 minecraft.dropped:minecraft.totem_of_undying "dropped - totem_of_undying"
+scoreboard objectives add dropped_T_9 minecraft.dropped:minecraft.trader_llama_spawn_egg "dropped - trader_llama_spawn_egg"
+scoreboard objectives add dropped_T_10 minecraft.dropped:minecraft.trapped_chest "dropped - trapped_chest"
+scoreboard objectives add dropped_T_11 minecraft.dropped:minecraft.trident "dropped - trident"
+scoreboard objectives add dropped_T_12 minecraft.dropped:minecraft.tripwire_hook "dropped - tripwire_hook"
+scoreboard objectives add dropped_T_13 minecraft.dropped:minecraft.tropical_fish "dropped - tropical_fish"
+scoreboard objectives add dropped_T_14 minecraft.dropped:minecraft.tropical_fish_bucket "dropped - tropical_fish_bucket"
+scoreboard objectives add dropped_T_15 minecraft.dropped:minecraft.tropical_fish_spawn_egg "dropped - tropical_fish_spawn_egg"
+scoreboard objectives add dropped_T_16 minecraft.dropped:minecraft.tube_coral "dropped - tube_coral"
+scoreboard objectives add dropped_T_17 minecraft.dropped:minecraft.tube_coral_block "dropped - tube_coral_block"
+scoreboard objectives add dropped_T_18 minecraft.dropped:minecraft.tube_coral_fan "dropped - tube_coral_fan"
+scoreboard objectives add dropped_T_19 minecraft.dropped:minecraft.turtle_egg "dropped - turtle_egg"
+scoreboard objectives add dropped_T_20 minecraft.dropped:minecraft.turtle_helmet "dropped - turtle_helmet"
+scoreboard objectives add dropped_T_21 minecraft.dropped:minecraft.turtle_spawn_egg "dropped - turtle_spawn_egg"
+scoreboard objectives add dropped_T_22 minecraft.dropped:minecraft.twisting_vines "dropped - twisting_vines"
+
+tellraw @a {"text":"Installed 50,67 %","color":"gray"}
+schedule function scoreboard:install/items/dropped/v 2t
